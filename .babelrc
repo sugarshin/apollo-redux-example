@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "useBuiltIns": "usage",
+      "targets": {
+        "chrome": "70"
+      }
+    }],
+    "@babel/preset-react"
+  ],
+  "plugins": ["react-hot-loader/babel"]
+}
